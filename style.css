@@ -1,0 +1,33 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+    font-family: 'Black Ops One', system-ui;
+}
+
+body 
+{
+    background-size: cover;
+}
+
+
+canvas{
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0%{box-shadow: 1px 1px 38px mediumseagreen;}
+    50%{box-shadow: 1px 1px 38px rgb(75, 163, 214);}
+    100%{box-shadow: 1px 1px 38px rgb(172, 119, 216);}
+}
